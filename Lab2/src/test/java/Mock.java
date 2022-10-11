@@ -1,3 +1,5 @@
+import interfaces.CalculatorView;
+
 public class Mock implements CalculatorView {
     public String result;
     public String error;
