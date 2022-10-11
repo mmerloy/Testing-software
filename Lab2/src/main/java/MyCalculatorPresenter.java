@@ -1,5 +1,8 @@
+import interfaces.Calculator;
+import interfaces.CalculatorPresenter;
+import interfaces.CalculatorView;
 
-public class MyCalculatorPresenter implements  CalculatorPresenter
+public class MyCalculatorPresenter implements CalculatorPresenter
 {
     private final Calculator calculator;
     private final CalculatorView calculatorView;
