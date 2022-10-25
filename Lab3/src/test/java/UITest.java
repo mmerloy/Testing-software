@@ -224,10 +224,10 @@ class UITest {
     }
     @Test
     public void testDivByZero() throws  InterruptedException {
-        app.inputB.setText("0");
+        app.inputB.setText("O");
         Thread.sleep(10);
         setA(a);
         click(app.divide, -50, -50);
-        assertEquals(app.error,errors[2]);
+        assertEquals(app.error,errors[0]);
     }
 }
