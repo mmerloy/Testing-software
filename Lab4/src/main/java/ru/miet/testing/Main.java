@@ -1,6 +1,4 @@
-
-import interfaces.CalculatorPresenter;
-import interfaces.CalculatorView;
+package ru.miet.testing;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,6 +16,8 @@ public class Main extends JFrame implements CalculatorView {
     public final JButton multiply = new JButton("*");
     public final JButton divide = new JButton("/");
     private final CalculatorPresenter calcPres;
+    public String error;
+
     public Main() {
         super("Calculator");
         calcPres = new MyCalculatorPresenter(this);
