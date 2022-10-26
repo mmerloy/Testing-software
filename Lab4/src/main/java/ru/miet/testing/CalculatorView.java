@@ -1,4 +1,4 @@
-package interfaces;
+package ru.miet.testing;
 
 public interface CalculatorView {
 

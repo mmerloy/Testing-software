@@ -1,4 +1,4 @@
-import interfaces.Calculator;
+package ru.miet.testing;
 
 public class MyCalculator implements Calculator
 {

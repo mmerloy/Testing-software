@@ -1,6 +1,4 @@
-import interfaces.Calculator;
-import interfaces.CalculatorPresenter;
-import interfaces.CalculatorView;
+package ru.miet.testing;
 
 public class MyCalculatorPresenter implements CalculatorPresenter
 {

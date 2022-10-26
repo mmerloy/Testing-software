@@ -1,4 +1,6 @@
+package ru.miet.testing;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -66,7 +68,7 @@ class UITest {
         setA(a);
         setB(b);
         click(app.plus, -50, -50);
-        assertEquals(Double.toString(a + b), app.output.getText());
+        Assertions.assertEquals(Double.toString(a + b), app.output.getText());
         Thread.sleep(100);
     }
     @Test
@@ -74,7 +76,7 @@ class UITest {
         setA(a);
         setB(b);
         click(app.minus,-50, -50);
-        assertEquals(Double.toString(a - b), app.output.getText());
+        Assertions.assertEquals(Double.toString(a - b), app.output.getText());
         Thread.sleep(100);
     }
     @Test
@@ -82,7 +84,7 @@ class UITest {
         setA(a);
         setB(b);
         click(app.multiply, -50, -50);
-        assertEquals(Double.toString(a * b), app.output.getText());
+        Assertions.assertEquals(Double.toString(a * b), app.output.getText());
         Thread.sleep(100);
     }
     @Test
@@ -90,7 +92,7 @@ class UITest {
         setA(a);
         setB(b+10e-8);
         click(app.divide, -50,-50);
-        assertEquals(Double.toString(a / (b+10e-8)), app.output.getText());
+        Assertions.assertEquals(Double.toString(a / (b+10e-8)), app.output.getText());
         Thread.sleep(100);
     }
     @Test

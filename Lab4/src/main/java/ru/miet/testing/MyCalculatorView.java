@@ -1,4 +1,4 @@
-import interfaces.CalculatorView;
+package ru.miet.testing;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;

@@ -1,4 +1,4 @@
-import interfaces.CalculatorView;
+package ru.miet.testing;
 
 public class CalculatorMock implements CalculatorView {
     public String result;
