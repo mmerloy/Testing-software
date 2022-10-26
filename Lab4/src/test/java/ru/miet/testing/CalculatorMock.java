@@ -1,5 +1,7 @@
 package ru.miet.testing;
 
+import ru.miet.testing.interfaces.CalculatorView;
+
 public class CalculatorMock implements CalculatorView {
     public String result;
     public String error;

@@ -1,5 +1,9 @@
 package ru.miet.testing;
 
+import ru.miet.testing.interfaces.Calculator;
+import ru.miet.testing.interfaces.CalculatorPresenter;
+import ru.miet.testing.interfaces.CalculatorView;
+
 public class MyCalculatorPresenter implements CalculatorPresenter
 {
     private final Calculator calculator;

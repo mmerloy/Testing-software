@@ -1,5 +1,7 @@
 package ru.miet.testing;
 
+import ru.miet.testing.interfaces.Calculator;
+
 public class MyCalculator implements Calculator
 {
     @Override

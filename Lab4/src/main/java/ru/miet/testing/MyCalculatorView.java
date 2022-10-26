@@ -1,5 +1,7 @@
 package ru.miet.testing;
 
+import ru.miet.testing.interfaces.CalculatorView;
+
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;

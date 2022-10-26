@@ -1,4 +1,4 @@
-package ru.miet.testing;
+package ru.miet.testing.interfaces;
 
 public interface CalculatorPresenter {
     /**

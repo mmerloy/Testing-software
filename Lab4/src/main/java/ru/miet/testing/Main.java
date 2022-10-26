@@ -1,5 +1,8 @@
 package ru.miet.testing;
 
+import ru.miet.testing.interfaces.CalculatorPresenter;
+import ru.miet.testing.interfaces.CalculatorView;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
