@@ -27,6 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Set Display
+      run: setenv DISPLAY :0.0
     - name: Build with Maven
       run: mvn -B package --file Lab4/pom.xml
 
